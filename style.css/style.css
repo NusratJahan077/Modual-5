@@ -1,0 +1,172 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  color: #111827;
+}
+
+.container {
+  width: 90%;
+  max-width: 1140px;
+  margin: auto;
+}
+
+
+.header {
+  background: #fff;
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #374151;
+}
+
+
+.btn-primary {
+  background: #2ea44f;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #9ca3af;
+  padding: 12px 22px;
+  border-radius: 6px;
+}
+
+
+.hero {
+  background:
+    linear-gradient(rgba(2,23,44,.75), rgba(2,23,44,.75)),
+    url("../assets/hero-bg.png") center/cover;
+  padding: 140px 0;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 820px;
+  margin: auto;
+}
+
+.programmer {
+  background: #e6f7ef;
+  color: #2ea44f;
+  padding: 6px 14px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #34d399;
+}
+
+.hero p {
+  color: #d1d5db;
+  margin-bottom: 30px;
+}
+
+.hero-btns {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+
+.problems {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.problem-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,.08);
+}
+
+
+.solution {
+  background: #f9fafb;
+  padding: 120px 0;
+}
+
+.solution-content {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.solution-img img {
+  width: 100%;
+  max-width: 420px;
+}
+
+.tag {
+  color: #10b981;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+.cat {
+  padding: 100px 0;
+}
+
+.cat-box {
+  background: #fefce8;
+  padding: 70px;
+  text-align: center;
+  border-radius: 18px;
+}
+
+
+.footer {
+  background: #020617;
+  color: #e5e7eb;
+  padding: 60px 0;
+}
+
+
+
+.copy {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
